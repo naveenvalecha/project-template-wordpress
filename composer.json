@@ -46,6 +46,10 @@
 			}
 		},
 		{
+			"type": "git",
+			"url": "https://github.com/voceconnect/wp-qa-suite.git"
+		},
+		{
 			"type": "composer",
 			"url": "http://wpackagist.org"
 		}
@@ -65,6 +69,7 @@
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.3",
+		"voceconnect/wp-qa-suite": "~1.0",
 		"wpackagist-plugin/theme-check": "*",
 		"wpackagist-plugin/debug-bar": "0.8.2",
 		"wpackagist-plugin/debug-bar-console": "*",
